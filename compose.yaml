@@ -1,0 +1,6 @@
+﻿services:
+  k8swebapplicationtest:
+    image: k8swebapplicationtest
+    build:
+      context: .
+      dockerfile: K8sWebApplicationTest/Dockerfile
